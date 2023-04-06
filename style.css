@@ -4,7 +4,7 @@ body{
 
     font-family: Arial, Helvetica, sans-serif;
 
-    height:900px;
+    height:2000px;
    
 }
     
@@ -41,6 +41,7 @@ ul{display: flex;
 background: hsla(240, 44%, 59%, 0.979);
 display: flex;
 justify-content: center;
+font-size: 30px;
 width: 400px;
 align-items: center;
 margin-right:190px;
@@ -126,3 +127,23 @@ font-weight: bold;}
 .two{display: flex;
 margin-bottom: -70px;
 width: 1000px;}
+
+.containerfour{display: flex;
+height: 500px;
+font-size: 40px;
+flex-wrap: wrap;
+background-color: lightgray;
+justify-content: center;}
+
+.test{display: flex;
+flex-wrap: wrap;
+width: 1000px;
+background-color: lightgrey;
+}
+
+.thor{display: flex;
+flex-grow: 1;
+justify-content: flex-end;
+margin-top: -150px;
+font-size: 32px;
+}
